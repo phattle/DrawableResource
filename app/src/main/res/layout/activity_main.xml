@@ -10,15 +10,26 @@
     tools:context=".MainActivity">
 <!--    tools:context=".MainActivity">-->
 
-    <Button
-        android:background="@drawable/bg_button_shape"
-        android:text="Shape Drawable"
+<!--    <Button-->
+<!--        android:background="@drawable/bg_button_shape"-->
+<!--        android:text="Shape Drawable"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <Button-->
+<!--        android:background="@drawable/bg_state_button"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="State Drawable"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <RatingBar
+        android:secondaryProgressTint="#7D9BB3"
+        android:progressTint="#f20"
+        android:background="#CDCAC9"
+        android:progress="100"
+        android:stepSize="0.1"
+        android:numStars="6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <Button
-        android:background="@drawable/bg_state_button"
-        android:layout_marginTop="10dp"
-        android:text="State Drawable"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
 </LinearLayout>

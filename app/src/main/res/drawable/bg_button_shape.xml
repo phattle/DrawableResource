@@ -3,18 +3,18 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <size android:width="100dp"
+    <size android:width="200dp"
         android:height="100dp"/>
     <solid android:color="#f20"/>
-    <corners android:radius="5dp"/>
+    <corners android:radius="10dp"/>
     <stroke
         android:width="5dp"
-        android:color="#2196F3"
+         android:color="#2196F3"
         android:dashWidth="40dp"
         android:dashGap="10dp"/>
     <gradient
-        android:startColor="#f20"
-        android:endColor="#9C27B0"
+        android:startColor="#FD6A54"
+        android:endColor="#B2EF91"
         android:type="linear"
         android:angle="360"/>
 
