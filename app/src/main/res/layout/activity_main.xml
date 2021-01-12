@@ -23,13 +23,11 @@
 <!--        android:layout_height="wrap_content"/>-->
 
     <RatingBar
-        android:secondaryProgressTint="#7D9BB3"
-        android:progressTint="#f20"
-        android:background="#CDCAC9"
-        android:progress="100"
+        android:progressDrawable="@drawable/bg_rating_bar"
         android:stepSize="0.1"
-        android:numStars="6"
+        android:minHeight="128dp"
+        android:maxHeight="128dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="128dp"/>
 
 </LinearLayout>
